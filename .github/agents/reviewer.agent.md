@@ -1,7 +1,7 @@
 ---
 description: "Comprehensive reviewer. Use when reviewing CESAR work, approving changes, designing tests, running checks, or rubber-ducking implementation plans."
 tools: [read, search, execute, web, agent, todo]
-model: "GPT-5.6 Sol (copilot)"
+model: "GPT-5.6 Terra (copilot)"
 agents: [cesar]
 user-invocable: true
 argument-hint: "Describe the code, diff, plan, or behavior to review"

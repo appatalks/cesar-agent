@@ -20,8 +20,12 @@ Copilot installs the agents in `.github/agents/` and the optional memory starter
 
 | Agent | Model | Responsibility |
 |---|---|---|
-| `@cesar` | GPT-5.6 Terra | Plans, delegates, implements, validates, and refines repository changes. |
-| `@reviewer` | GPT-5.6 Sol | Independently reviews material risks, testing, research, citations, and consequential tradeoffs. |
+| `@cesar` | GPT-6 Luna | Plans, delegates, implements, validates, and refines repository changes. |
+| `@reviewer` | GPT-5.6 Terra | Independently reviews material risks, testing, research, citations, and consequential tradeoffs. |
+
+## Frontmatter Options
+
+Use the [agent frontmatter reference](.github/templates/agent-frontmatter/README.md) for GitHub Copilot, VS Code-specific, and Claude Code options. These are distinct schemas; use only the fields supported by the target runtime.
 
 Both agents use high reasoning effort and evidence-based confidence scores. A score of 90 or higher supports a well-verified conclusion; 70 to 89 calls for qualification or targeted verification; below 70 requires further investigation or consultation before a material decision.
 
